@@ -93,11 +93,6 @@ generateBtn.addEventListener("click", writePassword);
 function generatePassword(length, upper, lower, num, spec) {
 
   var pass_array = [];
-
-  if( (upper === false) && (lower === false) && (num === false) && (spec === false)){
-    console.log("all false exit");
-    return "help";
-  }
   for (i = 0; i < length; i++) {
 
     var found_char = false;
@@ -144,6 +139,6 @@ function generatePassword(length, upper, lower, num, spec) {
     }
 
   }
-  return pass_array;
+  return pass_array.join("");
 
 }
