@@ -21,7 +21,7 @@ function writePassword() {
   // types of characters to include:
   var length_prompt = prompt("Please enter your password length: ", "8");
   if (length_prompt === null) {
-    return (alert("You canceled the process. Please click the button again to restart the process."));
+    return (alert("You cancelled the process. Please click the button again to restart the process."));
   }
   else if (length_prompt < 8 || length_prompt > 128) {
     return (alert("Not a good length."));
@@ -46,7 +46,7 @@ function writePassword() {
   
   // lowercase if statement
   if (lowercase === true) {
-    console.log("lowercase has been added.");
+    console.log("Lowercase has been added.");
   }
   else {
     console.log("No lowercase.");
