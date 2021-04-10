@@ -99,7 +99,6 @@ function generatePassword(length, upper, lower, num, spec) {
     while (found_char === false) {
 
       var choice = Math.floor(Math.random() * 4);
-      console.log("Choice: " + choice);
       switch (choice) {
 
         case 0:
