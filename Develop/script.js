@@ -134,8 +134,6 @@ function generatePassword(length, upper, lower, num, spec) {
           console.log("never be here.");
 
       }
-      console.log("i= " + i);
-      console.log(pass_array);
     }
 
   }
